@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaUser } from "react-icons/fa";
 import img1 from '../assets/image1.jpg'
 import '../components/styles/BlogPage.css'
 function BlogPage(props) {
@@ -27,8 +26,8 @@ function BlogPage(props) {
                         </div>
                         <div className='blog-text'>
                             <div className='blog-date'>
-                                <span>posted on: 27,Jun 2030</span>
-                                <span style={{padding:'0 15px'}}><FaUser /> Wild Nick</span>
+                                <span>posted on: <b>27,Jun 2030</b></span>
+                                <span style={{padding:'0 15px'}}>Posted by: <b>Wild Nick</b></span>
                             </div>
                             <div className='blog-des'>
                                 <h5><a href='#'>The Pros and Cons of Smart Product</a></h5>
@@ -45,8 +44,8 @@ function BlogPage(props) {
                         </div>
                         <div className='blog-text'>
                             <div className='blog-date'>
-                                <span>posted on: 27,Jun 2030</span>
-                                <span style={{padding:'0 15px'}}><FaUser /> Wild Nick</span>
+                                <span>posted on: <b>27,Jun 2030</b></span>
+                                <span style={{padding:'0 15px'}}>Posted by: <b>Wild Nick</b></span>
                             </div>
                             <div className='blog-des'>
                                 <h5><a href='#'>The Pros and Cons of Smart Product</a></h5>
@@ -63,8 +62,8 @@ function BlogPage(props) {
                         </div>
                         <div className='blog-text'>
                             <div className='blog-date'>
-                                <span>posted on: 27,Jun 2030</span>
-                                <span style={{padding:'0 15px'}}><FaUser /> Wild Nick</span>
+                                <span>posted on: <b>27,Jun 2030</b></span>
+                                <span style={{padding:'0 15px'}}>Posted by: <b>Wild Nick</b></span>
                             </div>
                             <div className='blog-des'>
                                 <h5><a href='#'>The Pros and Cons of Smart Product</a></h5>
