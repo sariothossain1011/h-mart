@@ -45,7 +45,7 @@ function BlogPage(props) {
                         </div>
                         <div className='blog-text'>
                             <div className='blog-date'>
-                                <span><SlCalender /> 27,Jun 2030</span>
+                                <span>posted on: 27,Jun 2030</span>
                                 <span style={{padding:'0 15px'}}><FaUser /> Wild Nick</span>
                             </div>
                             <div className='blog-des'>
@@ -63,7 +63,7 @@ function BlogPage(props) {
                         </div>
                         <div className='blog-text'>
                             <div className='blog-date'>
-                                <span><SlCalender /> 27,Jun 2030</span>
+                                <span>posted on: 27,Jun 2030</span>
                                 <span style={{padding:'0 15px'}}><FaUser /> Wild Nick</span>
                             </div>
                             <div className='blog-des'>
