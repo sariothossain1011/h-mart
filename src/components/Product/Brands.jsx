@@ -26,7 +26,7 @@ function Brands(props) {
             </span>
             {BrandList.map((item, i) => {
               return (
-                <div className="col-md-2 col-lg-2 text-center p-2 zoom-effects" key={i}>
+                <div key={i+1} className="col-md-2 col-lg-2 text-center p-2 zoom-effects" >
                   <Link to={'/by-brand/' + item['_id']} className="card h-100 rounded-3 bg-white">
                     <div className="card-body">
                       <div className='card-headers'  style={{  height: '100px', objectFit: "cover" }}>

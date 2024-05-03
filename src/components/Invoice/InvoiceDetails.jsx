@@ -65,7 +65,7 @@ function InvoiceDetails(props) {
                             <ul className="list-group list-group-flush">
                                 {
                                     InvoiceDetails.map((item,i)=>{
-                                        return(<li className="list-group-item d-flex justify-content-between align-items-start">
+                                        return(<li key={i+1} className="list-group-item d-flex justify-content-between align-items-start">
                                                 <img className="rounded-1" alt="" width="90" height="auto" src={item['product']['image']}/>
                                                 <div className="ms-2 me-auto">
                                                     <div className="fw-medium h6">

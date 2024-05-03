@@ -26,7 +26,7 @@ function InvoiceList(props) {
                          
                                 {
                                     InvoiceList.map((item,i)=>{
-                                        return(<li className="list-group-item d-flex justify-content-between align-items-start">
+                                        return(<li key={i+1} className="list-group-item d-flex justify-content-between align-items-start">
                                                 <div className="ms-2 me-auto">
                                                     <div className="">
                                                         <p className="m-1"><b>Invoice No::</b> {item['tran_id']}</p>

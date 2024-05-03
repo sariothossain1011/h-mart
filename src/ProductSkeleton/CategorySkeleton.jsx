@@ -10,9 +10,9 @@ function CategorySkeleton(props) {
             <div className="row">
                
                 {
-                    Array.from({length:18}).map(()=>{
+                    Array.from({length:18}).map(( item,id)=>{
                         return(
-                            <div className="col-2 col-lg-8r text-center col-md-8r p-2">
+                            <div key={i+1} className="col-2 col-lg-8r text-center col-md-8r p-2">
                                 <div className="card h-100 rounded-3 bg-white">
                                     <div className="card-body">
                                         <Lottie className="w-100" animationData={ImagePlaceholder} loop={true} />

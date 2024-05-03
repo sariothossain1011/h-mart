@@ -48,7 +48,7 @@ const Product = () => {
                                                                 price=<p className="bodyMedium  text-dark my-1">Price:<strike> ${item['price']} </strike> ${item['discountPrice']} </p>
                                                             }
                                                             return(
-                                                                <div className="col-md-3 p-2 col-lg-3 col-sm-6 col-12">
+                                                                <div key={i+1} className="col-md-3 p-2 col-lg-3 col-sm-6 col-12">
                                                                     <Link to={`/details/${item['_id']}`} className="card shadow-sm h-100 rounded-3 bg-white hover-zoom">
                                                                         <div className="bg-image hover-zoom">
                                                                             <img className="rounded-top-2 w-100 zoom-effect" style={{objectFit:"cover", height: "200px"}} src={item['image']} />
@@ -85,7 +85,7 @@ const Product = () => {
                                                                 price=<p className="bodyMedium  text-dark my-1">Price:<strike> ${item['price']} </strike> ${item['discountPrice']} </p>
                                                             }
                                                             return(
-                                                                <div className="col-md-3 p-2 col-lg-3 col-sm-6 col-12">
+                                                                <div key={i+1} className="col-md-3 p-2 col-lg-3 col-sm-6 col-12">
                                                                     <Link to={`/details/${item['_id']}`} className="card shadow-sm h-100 rounded-3 bg-white hover-zoom">
                                                                         <img style={{objectFit:"cover", height: "200px"}} className="w-100 rounded-top-2 zoom-effect"  src={item['image']} />
                                                                         <div className="card-body">
@@ -118,7 +118,7 @@ const Product = () => {
                                                                 price=<p className="bodyMedium  text-dark my-1">Price:<strike> ${item['price']} </strike> ${item['discountPrice']} </p>
                                                             }
                                                             return(
-                                                                <div className="col-md-3 p-2 col-lg-3 col-sm-6 col-12">
+                                                                <div key={i+1} className="col-md-3 p-2 col-lg-3 col-sm-6 col-12">
                                                                     <Link to={`/details/${item['_id']}`} className="card shadow-sm h-100 rounded-3 bg-white hover-zoom">
                                                                         <img style={{objectFit:"cover", height: "200px"}} className="w-100 rounded-top-2 zoom-effect" src={item['image']} />
                                                                         <div className="card-body">
@@ -151,7 +151,7 @@ const Product = () => {
                                                                 price=<p className="bodyMedium  text-dark my-1">Price:<strike> ${item['price']} </strike> ${item['discountPrice']} </p>
                                                             }
                                                             return(
-                                                                <div className="col-md-3 p-2 col-lg-3 col-sm-6 col-12">
+                                                                <div key={i+1} className="col-md-3 p-2 col-lg-3 col-sm-6 col-12">
                                                                     <Link to={`/details/${item['_id']}`} className="card shadow-sm h-100 rounded-3 bg-white hover-zoom">
                                                                         <img style={{objectFit:"cover", height: "200px"}} className="w-100 rounded-top-2 zoom-effect" src={item['image']} />
                                                                         <div className="card-body">
@@ -184,7 +184,7 @@ const Product = () => {
                                                                 price=<p className="bodyMedium  text-dark my-1">Price:<strike> ${item['price']} </strike> ${item['discountPrice']} </p>
                                                             }
                                                             return(
-                                                                <div className="col-md-3 p-2 col-lg-3 col-sm-6 col-12">
+                                                                <div key={i+1} className="col-md-3 p-2 col-lg-3 col-sm-6 col-12">
                                                                     <Link to={`/details/${item['_id']}`} className="card shadow-sm h-100 rounded-3 bg-white hover-zoom">
                                                                         <img style={{objectFit:"cover", height: "200px"}} className="w-100 rounded-top-2 zoom-effect" src={item['image']} />
                                                                         <div className="card-body">

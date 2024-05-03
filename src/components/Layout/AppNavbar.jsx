@@ -113,35 +113,35 @@ function AppNavbar(props) {
                         <li className='nav-item'><Link  className='nav-link  font-weight-bold mx-3' to={'/'}>Home</Link></li>
                         <li className='nav-item'><Link  className='nav-link  font-weight-bold mx-3' to={'/'}>About</Link></li>
 
-                        <li class="nav-item dropdown ">
-                        <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Page  </a>
+                        <li className="nav-item dropdown ">
+                        <a className="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Page  </a>
                             <ul className='dropdown-menu fade'>
                                 <div className='row' style={{width: '800px'}}>
                                     <div className='col-md-4'>
                                         <ul>
                                         <li>Inner Page</li>
-                                        <li><Link class="dropdown-item" to={"*"}> 404 Page </Link></li>
-                                        <li><Link class="dropdown-item" to={"/privacy"}> privacy policy and <br/> terms of use </Link></li>
-                                        <li><Link class="dropdown-item" to={"/faq"}> FAQ Page </Link></li>
-                                        <li><Link class="dropdown-item" to={"/review"}> Review Page </Link></li>
+                                        <li><Link className="dropdown-item" to={"*"}> 404 Page </Link></li>
+                                        <li><Link className="dropdown-item" to={"/privacy"}> privacy policy and <br/> terms of use </Link></li>
+                                        <li><Link className="dropdown-item" to={"/faq"}> FAQ Page </Link></li>
+                                        <li><Link className="dropdown-item" to={"/review"}> Review Page </Link></li>
                                     </ul>
                                     </div>
                                     <div className='col-md-4'>
                                         <ul>
                                         <li>Other Shop Page</li>
-                                        <li><Link class="dropdown-item" to={"/cart"}> Cart Page </Link></li>
-                                        <li><Link class="dropdown-item" to={"/checkout"}> Checkout Page </Link></li>
-                                        <li><Link class="dropdown-item" to={"/product"}> Product Page </Link></li>
-                                        <li><Link class="dropdown-item" to={"/search"}> Search Page </Link></li>
-                                        <li><Link class="dropdown-item" to={"/blog"}> Blog Page </Link></li>
+                                        <li><Link className="dropdown-item" to={"/cart"}> Cart Page </Link></li>
+                                        <li><Link className="dropdown-item" to={"/checkout"}> Checkout Page </Link></li>
+                                        <li><Link className="dropdown-item" to={"/product"}> Product Page </Link></li>
+                                        <li><Link className="dropdown-item" to={"/search"}> Search Page </Link></li>
+                                        <li><Link className="dropdown-item" to={"/blog"}> Blog Page </Link></li>
                                     </ul>
                                     </div>
                                     <div className='col-md-4'>
                                         <ul>
                                         <li>User Manager</li>
-                                        <li><Link class="dropdown-item" to={"/login"}> Login / Register Page </Link></li>
-                                        <li><Link class="dropdown-item" to={"/thank-you"}> Thank you Page </Link></li>
-                                        <li><Link class="dropdown-item" to={"/contact"}> Contact Page </Link></li>
+                                        <li><Link className="dropdown-item" to={"/login"}> Login / Register Page </Link></li>
+                                        <li><Link className="dropdown-item" to={"/thank-you"}> Thank you Page </Link></li>
+                                        <li><Link className="dropdown-item" to={"/contact"}> Contact Page </Link></li>
                                     </ul>
                                     </div>
                                 </div>

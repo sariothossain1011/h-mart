@@ -51,7 +51,7 @@ return (
                       <option value="">Choose Brand</option>
                       {BrandList!==null?(
                           BrandList.map((item,i)=>{
-                             return(<option  key={i} value={item['_id']}>{item['brandName']}</option>)
+                             return(<option  key={i+1} value={item['_id']}>{item['brandName']}</option>)
                           })
                       ):(<option></option>)}
                   </select>
@@ -60,7 +60,7 @@ return (
                     <option value="">Choose Category</option>
                     {CategoryList!==null?(
                         CategoryList.map((item,i)=>{
-                            return(<option key={i} value={item['_id']}>{item['categoryName']}</option>)
+                            return(<option key={i+1} value={item['_id']}>{item['categoryName']}</option>)
                         })
                     ):(<option></option>)}
                     </select>
@@ -78,7 +78,7 @@ return (
                                         price=<p className="bodyMedium  text-dark my-1">Price: <strike>${item['price']}</strike> ${item['discountPrice']}</p>
                                     }
                                     return(
-                                        <div className="col-md-3 p-2 col-lg-3 col-sm-6 col-12">
+                                        <div key={i+1} className="col-md-3 p-2 col-lg-3 col-sm-6 col-12">
                                             <Link to={"/details/"+item['_id']} className="card shadow-sm h-100 rounded-3 ">
                                                 <div className='bg-image hover-zoom'>
                                                     <img style={{objectFit:"cover", height: "200px"}} className="w-100 rounded-top-2 zoom-effect" src={item['image']}/>

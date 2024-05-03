@@ -52,7 +52,7 @@ const WishList = () => {
                                 price=<p className="bodyMedium  text-dark my-1">Price:<strike> ${item['product']['price']} </strike> ${item['product']['discountPrice']} </p>
                             }
                             return(
-                                <div key={i} className="col-md-3 p-2 col-lg-3 col-sm-6 col-12">
+                                <div key={i+1} className="col-md-3 p-2 col-lg-3 col-sm-6 col-12">
                                     <div  className="card shadow-sm h-100 rounded-3 bg-white">
                                         <img alt="" style={{objectFit:"cover", height: "200px"}}  className="w-100 rounded-top-2" src={item['product']['image']} />
                                         <div className="card-body">

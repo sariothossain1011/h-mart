@@ -93,7 +93,7 @@ const Details = () => {
                                             <option value="">Size</option>
                                             {
                                                 Details[0]['details']['size'].split(",").map((item,i)=>{
-                                                    return  <option value={item}>{item}</option>
+                                                    return  <option key={i+1} value={item}>{item}</option>
                                                 })
                                             }
                                         </select>
@@ -104,7 +104,7 @@ const Details = () => {
                                             <option value="">Color</option>
                                             {
                                                 Details[0]['details']['color'].split(",").map((item,i)=>{
-                                                    return  <option value={item}>{item}</option>
+                                                    return  <option key={i+1} value={item}>{item}</option>
                                                 })
                                             }
                                         </select>

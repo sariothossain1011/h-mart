@@ -12,9 +12,9 @@ const DetailsSkeleton = () => {
                        <div className="row">
                            <div className="col-12">
                                {
-                                   Array.from({length:10}).map(()=>{
+                                   Array.from({length:10}).map((item,i)=>{
                                        return(
-                                           <Skeleton count={1} />
+                                           <Skeleton key={i+1} count={1} />
                                        )
                                    })
                                }
@@ -36,9 +36,9 @@ const DetailsSkeleton = () => {
                 </div>
                 <div className="col-md-5 p-1">
                     {
-                        Array.from({length:16}).map(()=>{
+                        Array.from({length:16}).map((item,i)=>{
                             return(
-                                <Skeleton count={1} />
+                                <Skeleton key={i+1} count={1} />
                             )
                         })
                     }

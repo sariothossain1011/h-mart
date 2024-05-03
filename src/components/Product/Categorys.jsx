@@ -21,7 +21,7 @@ function Categorys(props) {
                         {
                                 CategoryList.map((item,i)=>{
                                     return(
-                                        <div key={i} className="col-md-2 text-center mt-3 zoom-effects">
+                                        <div key={i+1} className="col-md-2 text-center mt-3 zoom-effects">
                                             <Link to={`/by-category/${item['_id']}`} className="card h-100 rounded-3 bg-white">
                                                 <div className="card-body">
                                                     <img alt="" className="w-75" src={item['categoryImg']}/>

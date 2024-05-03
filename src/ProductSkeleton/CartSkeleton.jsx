@@ -8,9 +8,9 @@ function CartSkeleton(props) {
                 <div className="col-12">
                     <div className="card p-4">
                         {
-                            Array.from({length:5}).map(()=>{
+                            Array.from({length:5}).map((item,i)=>{
                                 return(
-                                    <Skeleton count={3}/>
+                                    <Skeleton key={i+1} count={3}/>
                                 )
                             })
                         }
