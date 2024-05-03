@@ -1,6 +1,6 @@
 import React from 'react';
 import Lottie from "lottie-react";
-import ImagePlaceholder from "../assets/images/image2.json";
+import ImagePlaceholder from  "../data/image2.json"
 import Skeleton from "react-loading-skeleton";
 
 const DetailsSkeleton = () => {
