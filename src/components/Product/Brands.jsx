@@ -1,7 +1,7 @@
 import React from 'react';
 import ProductStore from '../../store/ProductStore';
 import { Link } from 'react-router-dom';
-import BrandSkeleton from '../../ProductSkeleton/brandSkeleton';
+import BrandSkeleton from '../../ProductSkeleton/BrandSkeleton'
 import './styles.css'
 
 
@@ -9,7 +9,7 @@ function Brands(props) {
   const { BrandList } = ProductStore();
 
   if (BrandList.length === 0) {
-    return <BrandSkeleton />;
+    return < BrandSkeleton/>;
   } else {
     return (
       <div className="section">

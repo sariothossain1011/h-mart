@@ -3,7 +3,7 @@ import Skeleton from "react-loading-skeleton";
 import Lottie from "lottie-react";
 import ImagePlaceholder from "../data/image.json"
 
-function BrandSkeleton(props) {
+export function BrandSkeleton(props) {
     return ( 
         <div className="section">
         <div className="container">
@@ -30,4 +30,3 @@ function BrandSkeleton(props) {
     );
 }
 
-export default BrandSkeleton;
