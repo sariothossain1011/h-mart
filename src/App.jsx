@@ -44,7 +44,7 @@ function App() {
           
   
           <Route path="/login" element={<Navigate to='/' replace />} />
-          <Route exact path='/' element={<HomePage/>} />
+          <Route path='/' element={<HomePage/>} />
 
           <Route path="/otp" element={<Navigate to='/' replace />} />
 
