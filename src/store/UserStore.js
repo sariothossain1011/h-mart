@@ -104,7 +104,6 @@ const UserStore = create((set) => ({
     ProfileDetails: null,
     ProfileDetailsRequest: async () => {
             const res = await axios.get(`${BaseUrl}/api/ReadProfile`, {
-                withCredentials: true,
                 headers: {
                     'token': Cookie.get('token') 
                 }
